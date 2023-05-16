@@ -1,0 +1,140 @@
+/* CSS styles for the search bar and rule container */
+/*#search {
+    margin-bottom: 10px;
+  }
+  
+  #rules-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .rule-box {
+    width: 300px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .expanded {
+    height: auto;
+  }
+  
+  .full-article {
+    display: none;
+  }
+*/
+
+/* CSS styles for the search bar and rule container */
+/*#search {
+  margin-bottom: 10px;
+}
+
+#rules-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rule-box {
+  width: 300px;
+  min-height: 150px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.expanded {
+  height: auto;
+  min-height: 150px;
+}
+
+.full-article {
+  display: none;
+}
+*/
+
+/* CSS styles for the search bar and rule container */
+body{
+  background-color: #F9F5EB;
+}
+#search {
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.about{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.about-p{
+  text-align: justify;
+}
+
+h1{
+  text-align: center;
+}
+
+.heading{
+  color: #EA5455;
+  font-size: 23px;
+}
+
+#rules-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.rule-box {
+  width: 300px;
+  min-height: 150px;
+  /*background-color: lightgray;*/
+  background-color: #E4DCCF;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.expanded {
+  height: auto;
+  min-height: 150px;
+}
+
+.full-article {
+  display: none;
+  color: #002B5B;
+  font-size: 18px;
+}
+
+.sear {
+  text-align: center;
+}
+
+
+/* Responsive styles*/
+@media only screen and (min-width: 768px) {
+  .rule-box {
+    width: calc(50% - 20px);
+  }
+}
+
+/*@media only screen and (max-width: 480px) {
+  .rule-box {
+    width: 100%;
+  }
+  #rules-container .rule-box {
+    justify-content: center;
+    display: grid;
+  }
+}*/
